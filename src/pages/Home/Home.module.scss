@@ -1,0 +1,27 @@
+.content {
+  margin: 0 auto;
+}
+
+.message {
+  border-radius: 20px;
+  overflow-x: hidden;
+}
+
+.dialog {
+  padding: 0 5vw;
+  margin: 0 auto;
+  height: calc(100vh - 150px);
+  overflow-y: scroll;
+}
+
+.input_container {
+  position: fixed;
+  width: 90vw;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.input {
+  width: 100%;
+}
+
